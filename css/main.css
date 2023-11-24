@@ -1,0 +1,70 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+header {
+  background-color: #ffffff;
+}
+
+.travel-logo{
+    color: #335576;
+}
+footer {
+  background-color: #fefaf5;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-content {
+  justify-content: space-around;
+  padding: 100px;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.hours-content:nth-child(2) {
+  padding-inline: 50px;
+}
+
+.social-icon > img{
+    height: 40px;
+}
+
+.social-logos{
+    margin-bottom: 13px;
+}
+
+.social-icon:nth-child(2) {
+  padding-inline: 25px;
+}
+
+a {
+color: unset;
+text-decoration: none;
+}
+
+.nav-content{
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 70px;
+    padding: 20px;
+}
+
+.current-page{
+    border-bottom: 2px solid #DB7A4E;
+}

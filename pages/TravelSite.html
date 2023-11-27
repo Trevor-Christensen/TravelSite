@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Site</title>
     <link rel="stylesheet" href="/css/main.css"> 
+    <link rel="stylesheet" href="/css/destinations.css">
+    <link rel="stylesheet" href="/css/global.css">
 </head>
 <body>
    
    <Header>
-    
+    <!-- nav bar info below -->
     <nav>
         <div class="flex-row nav-content">
             <a href="TravelSite.html"><strong class="travel-logo">Travel Site</strong></a>
 
             <ul class="destinations">
-                <a class="current-page" href="TravelSite.html">Home</a>
+                <a class li="current-page" href="TravelSite.html">Home</a>
                 <a href="hawaii.html">Hawaii</a>
                 <a href="iceland.html">Iceland</a>
                 <a href="greece.html">Greece</a>
@@ -24,43 +26,92 @@
     </nav>
 
     </Header>
-    
+
+    <!--Hero img + new slogan-->
+
+    <section class="home">
+        <div class="hero-content">
+            <h1 class="hero-title"> Travelling Comes With Endless Discoveries</h1>
+            <p class="hero-quote">"The World is a book, and those who do not travel real only a page." -St Augustine</p>
+            <a href="#recommendations" class="cta-button">Get Started</a>
+        </div>
+
+        <div class="hero-img"><img src="/assets/Images/hero.png" alt="Hero Image"></div>
+            </div>
+    </section>
+
+
+    <!--Recommendations-->
+
+    <div class="homeParent">
+        <h1>Recommendations</h1>
+
+        <div class="cardParent">
+
+            <div class="recommendations">
+                <a href="hawaii.html">
+                    <div class="destination-card">
+                        <img src="/assets/Images/hawaii.jpg" alt="hawaii" class="dest-image">
+                        <h2 class="destination-title">Hawaii</h2>
+                    </div>
+                </a>
+
+                <a href="iceland.html">
+                    <div class="destination-card">
+                        <img src="/assets/Images/iceland.jpg" alt="iceland" class="dest-image">
+                        <h2 class="destination-title">Iceland</h2>
+                    </div>
+                </a>
+
+                <a href="greece.html">
+                    <div class="destination-card">
+                        <img src="/assets/Images/greece.jpg" alt="greece" class="dest-image">
+                        <h2 class="destination-title">Greece</h2>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
 
 
     <footer>
         <div class="footer-content flex-row">
-        <div class="flex-column footer-section">
-            <strong>Contact</strong>
-            <p>Email</p>
-            <p>info@travelsite.com</p>
-        </div>
-        <div class="flex-column footer-section">
-            <strong>Hours</strong>
+            <div class="flex-column footer-section">
+                <strong>Contact</strong>
+                <p class="subtitles">Email</p>
+                <p>info@travelsite.com</p>
+            </div>
+
+            <div class="flex-column footer-section">
+                <strong>Hours</strong>
 
             <div class="flex-row hours-container">
-           <div class="hours-content">
-                <p>Monday - Friday</p>
+                <div class="hours-content">
+                <p class="subtitles"> Monday - Friday</p>
                 <p>9:00 AM 5:00 PM</p>
            </div>
+
            <div class="hours-content">
-                <p>Saturday</p>
+                <p class="subtitles">Saturday</p>
                 <p>10:00 AM 4:00 PM</p>
             </div>
+
             <div class="hours-content">
-                <p>Sunday</p>
+                <p class="subtitles">Sunday</p>
                 <p>Closed</p>
             </div>
-            </div>
+        </div>
 
         </div>
-        <div class="flex-column footer-section">
-            <strong>Social</strong>
-            <div class="flex-row social-logos">
+            <div class="flex-column footer-section">
+                <strong>Social</strong>
+                <div class="flex-row social-logos">
                     <div class="social-icon"><img src="/assets/Icons/icon-instagram.png" alt="instagram"><a href="Instagram"></a></img></div>
                     <div class="social-icon"> <img src="/assets/Icons/icon-facebook.png" alt="facebook"><a href="Facebook"></a></img></div>
                     <div class="social-icon"><img src="/assets/Icons/icon-twitter.png" alt="twitter"><a href="Twitter"></a></img></div>
+                </div>
             </div>
-        </div>
         </div>
 
     </footer>

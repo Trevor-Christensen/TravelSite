@@ -1,0 +1,102 @@
+.homeParent {
+  padding: 20px;
+}
+
+.cardParent {
+  margin: auto;
+  max-width: 75%;
+}
+
+.recommendations {
+  display: flex;
+  gap: 60px;
+}
+
+.destination-card {
+  position: relative;
+  flex: 1;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.dest-image {
+  display: block;
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+}
+
+.destination-title {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  padding: 10px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  margin-right: 30px;
+}
+
+.dest-header {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  font-size: 90px;
+  color: #ffffff;
+}
+
+.vacay-background {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vacay-image {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.day-card-parent {
+  width: 75%;
+  margin: auto;
+  z-index: 3;
+}
+
+.day-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.subtitles {
+  color: #db7a4e;
+}
+
+.card {
+  background-color: #ffffff;
+  padding-top: 80px;
+  position: relative;
+  padding: 90px;
+  border-radius: 3%;
+}
+
+.card p {
+  background-color: #fefaf5;
+}
+
+.day-cards {
+  display: flex;
+  justify-content: center;
+}
+
+.cardTitle {
+  border-bottom: solid black 3.5px;
+  width: 90%;
+  text-align: center;
+}

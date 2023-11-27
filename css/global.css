@@ -1,0 +1,34 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    background-color: #fefaf5;
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .footer-content {
+    justify-content: space-around;
+    padding: 100px;
+  }
+  
+  .footer-section{
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .nav-content{
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 70px;
+    padding: 20px;
+}
